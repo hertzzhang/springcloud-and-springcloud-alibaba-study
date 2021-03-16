@@ -1,0 +1,20 @@
+server:
+  port: 3355
+spring:
+  application:
+    name: config3355-springcloud-client
+  cloud:
+    config:
+      label: master #分支名称
+      name: config #配置文件名称
+      profile: test #读取后缀文件名称
+      uri: http://localhost:3344 #config server地址
+    consul:
+      enabled: true
+      host: localhost
+      port: 8500
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

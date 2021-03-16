@@ -1,0 +1,10 @@
+server:
+  port: 8401
+spring:
+  application:
+    name: sentinel-springcloud-8401
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719

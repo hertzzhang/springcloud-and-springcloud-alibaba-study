@@ -1,0 +1,23 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: config-springcloud
+  cloud:
+    consul:
+      enabled: true
+      host: localhost
+      port: 8500
+    #进行springcloud-config配置
+    config:
+      server:
+        git:
+          uri: https://github.com/Lee-Zhang-997/springcloud-config-ramote.git #设置github仓库名称
+          #设置搜素该仓库的目录
+          search-paths:
+            - springcloud-config-ramote
+          username: Lee-Zhang-997
+          password: zxh151789
+      #设置读取的分支
+      label: master
+

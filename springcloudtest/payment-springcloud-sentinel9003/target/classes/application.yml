@@ -1,0 +1,14 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: payment-springcloud-sentinel
+    cloud:
+      consul:
+        enabled: # true #//是否启用consul
+          host: localhost #// consul server的ip地址
+          port: 8500 #// consul运行的端口号
+      sentinel:
+        transport:
+          dashboard: localhost:8080
+          port: 8719

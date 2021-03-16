@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="payment-springcloud-sentinel9002" />
+        <module name="config-springcloud-3355" />
+        <module name="eureka-springcloud-8762" />
+        <module name="eureka-springcloud-8761" />
+        <module name="api-springcloud" />
+        <module name="order-springcloud-sentinel9001" />
+        <module name="getway-springcloud-9527" />
+        <module name="order-springcloud-consul80" />
+        <module name="sentinel-springcloud-8401" />
+        <module name="payment-springcloud-consul8002" />
+        <module name="payment-springcloud" />
+        <module name="orderment-springcloud" />
+        <module name="payment-springcloud-hystrix8004" />
+        <module name="order-springcloud-hystrix80" />
+        <module name="openFeign-springcloud-Client" />
+        <module name="payment-springcloud-consul8003" />
+        <module name="config-springcloud-3344" />
+        <module name="openFeign-springcloud-order80" />
+        <module name="payment-springcloud-sentinel9003" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="order-springcloud-hystrix80" options="" />
+    </option>
+  </component>
+</project>

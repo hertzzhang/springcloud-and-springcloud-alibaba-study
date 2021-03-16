@@ -1,0 +1,33 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: getaway-springcloud
+  cloud:
+    consul:
+      enabled: true
+      port: 8500
+      host: localhost
+    gateway:
+      discovery:
+        locator:
+          enabled: true #开启从注册中心动态创建路由的功能，利用微服务名称进行路由
+      routes:
+        - id: payment_gateway_two #设置ID，该ID没有固定设置规则但必须要求唯一，一般配合微服务名
+         # uri: http://localhost:8002 #设置匹配后的路由地址
+          uri: lb://payment-springcloud #通过微服务名称进行路由
+          predicates:
+            - Path=/payment/getaway/two/** #Path断言， 填写具体的API接口地址，路径如果匹配就进行路由
+            - After=2021-02-23T16:57:03.950+08:00[Asia/Shanghai] #After断言，如果在该时间之后则进行路由匹配
+            - Cookie=username,zxh #Cookie断言，如果HTTP的Cookie与该Cookie的key和value匹配则进行路由
+            - Header=X-Request-Id, \d+  #Header断言，如果HTTP的Header与该Header的key value匹配则进行路由（注意逗号之后有空格）
+
+
+
+        - id: payment_gateway_one #设置ID，该ID没有固定设置规则但必须要求唯一，一般配合微服务名
+          #uri: http://localhost:8002 #设置匹配后的路由地址
+          uri: lb://payment-springcloud #通过微服务名称进行路由
+          predicates:
+            - Path=/payment/getaway/one/** #断言， 填写具体的API接口地址，路径如果匹配就进行路由
+
+

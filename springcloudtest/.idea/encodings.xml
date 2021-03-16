@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/api-springcloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-springcloud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-springcloud-3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-springcloud-3344/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-springcloud-3355/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-springcloud-3355/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-springcloud-8761/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-springcloud-8761/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-springcloud-8762/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-springcloud-8762/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/getway-springcloud-9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/getway-springcloud-9527/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openFeign-springcloud-Client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openFeign-springcloud-Client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openFeign-springcloud-order80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openFeign-springcloud-order80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-springcloud-consul80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-springcloud-consul80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-springcloud-hystrix80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-springcloud-hystrix80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-springcloud-sentinel9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-springcloud-sentinel9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orderment-springcloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orderment-springcloud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-springcloud-consul8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-springcloud-consul8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-springcloud-consul8003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-springcloud-consul8003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-springcloud-hystrix8004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-springcloud-hystrix8004/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-springcloud-sentinel9002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-springcloud-sentinel9002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-springcloud-sentinel9003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-springcloud-sentinel9003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-springcloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/payment-springcloud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-springcloud-8401/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-springcloud-8401/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
